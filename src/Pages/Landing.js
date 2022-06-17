@@ -1,18 +1,24 @@
 import React from 'react'
 import Banner from '../Components/Banner'
+import Comparison from '../Components/Comparison'
 import Conclusion from '../Components/Conclusion'
+import FrameworkExample from '../Components/FrameworkExample'
 import Information from '../Components/Information'
 import Install from '../Components/Install'
 
 const Landing = () => {
     return (
         <>
-            <section className='w-4/5 mx-auto md:mr-auto px-4'>
+            <section>
                 <div className='text-white'>
                     <Banner />
-                    <Information />
-                    <Install />
-                    <Conclusion />
+                    <div className='w-4/5 mx-auto md:mr-auto px-4'>
+                        <Information />
+                        <Install />
+                        <FrameworkExample />
+                        <Comparison />
+                        <Conclusion />
+                    </div>
                 </div>
             </section>
         </>
