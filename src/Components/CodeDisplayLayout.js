@@ -9,7 +9,7 @@ import Upload from '../Images/CodeDisplayLayout/Upload.svg'
 import Add from '../Images/CodeDisplayLayout/Add.svg'
 import Cards from '../Images/CodeDisplayLayout/Cards.svg'
 
-const CodeDisplayLayout = ({children}) => {
+const CodeDisplayLayout = ({ children }) => {
     return (
         <div className='w-full'>
             <div className='bg-[#030012] p-2 flex justify-between select-none rounded-tr-md rounded-tl-md'>
@@ -41,7 +41,7 @@ const CodeDisplayLayout = ({children}) => {
                     <img className='h-4 w-4' src={Cards} alt="Cards" />
                 </div>
             </div>
-            <div className='bg-[#1C2533] p-6 rounded-br-md rounded-bl-md overflow-hidden h-96 overflow-y-auto scrollbar-hide transition-all transform space-y-6'>
+            <div className='bg-[#1C2533] rounded-br-md rounded-bl-md overflow-hidden h-96 overflow-y-auto scrollbar-hide transition-all transform space-y-6'>
                 {children}
             </div>
         </div>

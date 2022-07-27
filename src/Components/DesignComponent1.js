@@ -3,7 +3,7 @@ import React from 'react'
 const DesignComponent1 = () => {
     return (
         <>
-            <div className="flex font-sans bg-white rounded-md mr-5">
+            <div className="flex font-sans bg-white rounded-md mr-5 w-96">
                 <div className="flex-none w-44 relative">
                     <img src="https://tailwindcss.com/_next/static/media/classic-utility-jacket.0f108046e151c8576017eaf383406fe6.jpg" alt="" className="absolute inset-0 w-full h-full object-cover rounded-tl-md rounded-bl-md" loading="lazy" />
                 </div>
