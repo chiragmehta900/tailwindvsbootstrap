@@ -8,18 +8,20 @@ import Install from '../Components/Install'
 
 const Landing = () => {
     return (
-        <section>
-            <div className='text-white'>
-                <Banner />
-                <div className='w-4/5 mx-auto md:mr-auto px-4'>
-                    <Information />
-                    <Install />
-                    <FrameworkExample />
-                    <Comparison />
-                    <Conclusion />
+        <>
+            <section>
+                <div className='text-white'>
+                    <Banner />
+                    <div className='w-4/5 mx-auto md:mr-auto px-4'>
+                        <Information />
+                        <Install />
+                        <FrameworkExample />
+                        <Comparison />
+                        <Conclusion />
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
 
